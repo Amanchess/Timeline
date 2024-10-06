@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+
+.snowflake {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url('snowflake.png'); /* Replace with your snowflake image */
+    background-size: cover;
+    animation: fall 5s infinite linear;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+.start-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  

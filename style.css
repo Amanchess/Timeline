@@ -6,7 +6,7 @@ body {
     position: absolute;
     width: 20px;
     height: 20px;
-    background-image: url('snowflake.png'); /* Replace with your snowflake image */
+    background-image: url('snowflake.png.png'); /* Replace with your snowflake image */
     background-size: cover;
     animation: fall 5s infinite linear;
 }

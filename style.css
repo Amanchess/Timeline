@@ -130,4 +130,24 @@ transparent;
     border-radius: 5px;
     cursor: pointer;
 }
+/* Button Styles */
+.btn-26 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* Increase the width of the button */
+    height: 50px; /* Increase the height of the button */
+    padding: 15px 30px; /* Adjust padding as needed */
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-26:hover {
+    background-color: #3e8e41;
+}
+
   
